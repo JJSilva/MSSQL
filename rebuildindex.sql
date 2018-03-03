@@ -1,4 +1,4 @@
-USE TMI
+USE [DB]
 DECLARE @TableName varchar(255)
 DECLARE TableCursor CURSOR FOR
 SELECT table_name FROM information_schema.tables
